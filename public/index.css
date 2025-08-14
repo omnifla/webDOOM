@@ -171,11 +171,12 @@ body {
 }
 
 #preview .doom {
-  background-size: 1920px 1080px;
-  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
   position: absolute;
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer;
 
   height: 100%;
